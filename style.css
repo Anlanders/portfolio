@@ -275,10 +275,8 @@ body {
 }
 
 .project-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
+  margin: 0 0 24px;
+  text-align: center;
 }
 
 .project-image img {
