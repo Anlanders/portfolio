@@ -279,11 +279,7 @@ body {
   text-align: center;
 }
 
-.project-image img {
-  width: 448px;
-  height: 256px;
-  object-fit: cover;
-}
+
 
 .projects p {
   margin: 0 0 32px;
