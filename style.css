@@ -8,7 +8,7 @@
   font-size: 16px;
   line-height: 32px;
   color: #222222;
-  background-image: url("themes/light-pro/img/hero-bg.jpg");
+  background-image: url("./themes/light-pro/img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position-y: top;
   background-position-x: calc(50vw + 16px);
@@ -48,12 +48,12 @@
 
 .pro-light-theme .header-email {
   padding-left: 30px;
-  background-image: url("themes/light-pro/img/icon-email-header.svg");
+  background-image: url("./themes/light-pro/img/icon-email-header.svg");
 }
 
 .pro-light-theme .header-phone {
   padding-left: 25px;
-  background-image: url("themes/light-pro/img/icon-phone-header.svg");
+  background-image: url("./themes/light-pro/img/icon-phone-header.svg");
 }
 
 .pro-light-theme .theme-button {
@@ -76,7 +76,7 @@
 .pro-light-theme .hero-image .container {
   padding-left: 0;
   padding-right: 0;
-  background-image: url("themes/light-pro/img/dotted-border-v.svg");
+  background-image: url("./themes/light-pro/img/dotted-border-v.svg");
   background-repeat: repeat-y;
   background-position: top left;
 }
@@ -136,7 +136,7 @@
   left: -32px;
   width: 16px;
   height: 28px;
-  background-image: url("themes/light-pro/img/icon-scroll.svg");
+  background-image: url("./themes/light-pro/img/icon-scroll.svg");
   background-repeat: no-repeat;
 }
 
@@ -179,7 +179,7 @@
   right: -120px;
   width: 144px;
   height: 64px;
-  background-image: url("themes/light-pro/img/decor-dots1.svg");
+  background-image: url("./themes/light-pro/img/decor-dots1.svg");
 }
 
 .pro-light-theme .intro .container div:nth-of-type(2)::before {
@@ -187,7 +187,7 @@
   left: -120px;
   width: 144px;
   height: 64px;
-  background-image: url("themes/light-pro/img/decor-dots2.svg");
+  background-image: url("./themes/light-pro/img/decor-dots2.svg");
 }
 
 .pro-light-theme .intro h3,
@@ -208,7 +208,7 @@
 
 .pro-light-theme .intro .container div:nth-of-type(2) {
   margin-right: 0;
-  background-image: url("themes/light-pro/img/abilities.jpg");
+  background-image: url("./themes/light-pro/img/abilities.jpg");
   background-position: right;
   background-repeat: no-repeat;
 }
@@ -222,7 +222,7 @@
   right: -120px;
   width: 64px;
   height: 64px;
-  background-image: url("themes/light-pro/img/decor-dots3.svg");
+  background-image: url("./themes/light-pro/img/decor-dots3.svg");
 }
 
 .pro-light-theme .skills::after {
@@ -230,7 +230,7 @@
   left: -120px;
   width: 64px;
   height: 24px;
-  background-image: url("themes/light-pro/img/decor-dots4.svg");
+  background-image: url("./themes/light-pro/img/decor-dots4.svg");
 }
 
 .pro-light-theme .skills h3 {
@@ -257,12 +257,12 @@
 }
 
 .pro-light-theme .skill-html {
-  background-image: url("themes/light-pro/img/icon-html.svg");
+  background-image: url("./themes/light-pro/img/icon-html.svg");
 }
 
 .pro-light-theme .skill-css {
   margin-left: 48px;
-  background-image: url("themes/light-pro/img/icon-css.svg");
+  background-image: url("./themes/light-pro/img/icon-css.svg");
 }
 
 .pro-light-theme .level {
@@ -290,15 +290,11 @@
   height: 24px;
   min-height: unset;
   background-color: #8da2ed;
-  background-image: url("themes/light-pro/img/progress-pattern.svg");
+  background-image: url("./themes/light-pro/img/progress-pattern.svg");
 }
 
 .pro-light-theme .portfolio {
   margin: 0 0 208px;
-}
-
-.pro-light-theme .portfolio .subheading {
-  margin-bottom: 80px;
 }
 
 .pro-light-theme .projects {
@@ -332,7 +328,7 @@
   left: 24px;
   width: 64px;
   height: 64px;
-  background-image: url("themes/light-pro/img/decor-dots5.svg");
+  background-image: url("./themes/light-pro/img/decor-dots5.svg");
   background-repeat: no-repeat;
 }
 
@@ -343,7 +339,7 @@
   right: 24px;
   width: 64px;
   height: 24px;
-  background-image: url("themes/light-pro/img/decor-dots4.svg");
+  background-image: url("./themes/light-pro/img/decor-dots4.svg");
   background-repeat: no-repeat;
 }
 
@@ -357,7 +353,7 @@
 }
 
 .pro-light-theme .project-image {
-  margin: 0 0 24px;
+  margin: 200px 0 24px;
   text-align: center;
 }
 
@@ -392,6 +388,7 @@
   text-transform: uppercase;
   color: #8da2ed;
   border: 1px solid #8da2ed;
+
 }
 
 .pro-light-theme .button::before {
@@ -401,7 +398,7 @@
   height: 20px;
   top: 14px;
   left: 29px;
-  background-image: url("themes/light-pro/img/icon-open-page.svg");
+  background-image: url("./themes/light-pro/img/icon-open-page.svg");
 }
 
 .pro-light-theme .button:focus,
@@ -420,6 +417,48 @@
 .pro-light-theme .button:focus::before,
 .pro-light-theme .button:hover::before,
 .pro-light-theme .button:active::before {
+  filter: brightness(100);
+}
+
+.pro-light-theme .button2 {
+  position: relative;
+  margin: auto 72px -10px;
+  padding: 10px 0 10px 28px;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8da2ed;
+  border: 1px solid #8da2ed;
+}
+
+.pro-light-theme .button2::before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 14px;
+  left: 29px;
+  background-image: url("./themes/light-pro/img/icon-open-page.svg");
+}
+
+.pro-light-theme .button2:focus,
+.pro-light-theme .button2:hover {
+  margin-bottom: -10px;
+  color: #ffffff;
+  border-color: #c98ded;
+  background-color: #c98ded;
+  transition: border-color 150ms, background-color 150ms;
+}
+
+.pro-light-theme .button2:active {
+  opacity: 0.6;
+}
+
+.pro-light-theme .button2:focus::before,
+.pro-light-theme .button2:hover::before,
+.pro-light-theme .button2:active::before {
   filter: brightness(100);
 }
 
@@ -451,12 +490,12 @@
 
 .pro-light-theme .footer-email {
   padding-left: 30px;
-  background-image: url("themes/light-pro/img/icon-email-footer.svg");
+  background-image: url("./themes/light-pro/img/icon-email-footer.svg");
 }
 
 .pro-light-theme .footer-phone {
   padding-left: 25px;
-  background-image: url("themes/light-pro/img/icon-phone-footer.svg");
+  background-image: url("./themes/light-pro/img/icon-phone-footer.svg");
 }
 
 .pro-light-theme h3 {
@@ -476,7 +515,7 @@
   line-height: 32px;
   color: #f2f2f2;
   background-color: #141530;
-  background-image: url("themes/dark-pro/img/pattern-lines-hero.svg");
+  background-image: url("./themes/dark-pro/img/pattern-lines-hero.svg");
   background-position: center;
 }
 
@@ -531,27 +570,27 @@
 .pro-dark-theme .header-email,
 .pro-dark-theme .footer-email {
   padding-left: 28px;
-  background-image: url("themes/dark-pro/img/icon-email.svg");
+  background-image: url("./themes/dark-pro/img/icon-email.svg");
 }
 
 .pro-dark-theme .header-email:focus,
 .pro-dark-theme .header-email:hover,
 .pro-dark-theme .footer-email:focus,
 .pro-dark-theme .footer-email:hover {
-  background-image: url("themes/dark-pro/img/icon-email-alt.svg");
+  background-image: url("./themes/dark-pro/img/icon-email-alt.svg");
 }
 
 .pro-dark-theme .header-phone,
 .pro-dark-theme .footer-phone {
   padding-left: 21px;
-  background-image: url("themes/dark-pro/img/icon-phone.svg");
+  background-image: url("./themes/dark-pro/img/icon-phone.svg");
 }
 
 .pro-dark-theme .header-phone:focus,
 .pro-dark-theme .header-phone:hover,
 .pro-dark-theme .footer-phone:focus,
 .pro-dark-theme .footer-phone:hover {
-  background-image: url("themes/dark-pro/img/icon-phone-alt.svg");
+  background-image: url("./themes/dark-pro/img/icon-phone-alt.svg");
 }
 
 .pro-dark-theme .page-header a:active,
@@ -576,7 +615,7 @@
   position: relative;
   padding-top: 200px;
   height: 798px;
-  background-image: url("themes/dark-pro/img/bg-html.png");
+  background-image: url("./themes/dark-pro/img/bg-html.png");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 48px;
@@ -594,7 +633,7 @@
   left: calc(50vw - 32px);
   width: 800px;
   height: 800px;
-  background-image: url("themes/dark-pro/img/hero-image.svg");
+  background-image: url("./themes/dark-pro/img/hero-image.svg");
   background-repeat: no-repeat;
 }
 
@@ -605,7 +644,7 @@
   width: 100%;
   bottom: 0;
   background-color: #0b0c23;
-  background-image: url("themes/dark-pro/img/bg-tags.svg");
+  background-image: url("./themes/dark-pro/img/bg-tags.svg");
   background-position: center;
   background-repeat: no-repeat;
   border-top: 2px solid #5053a8;
@@ -635,7 +674,7 @@
 .pro-dark-theme .intro,
 .pro-dark-theme .portfolio {
   background-color: #141530;
-  background-image: url("themes/dark-pro/img/pattern-lines.svg");
+  background-image: url("./themes/dark-pro/img/pattern-lines.svg");
   background-repeat: repeat-y;
   background-position-x: center;
 }
@@ -677,7 +716,7 @@
 
 .pro-dark-theme .intro h3,
 .pro-dark-theme .portfolio h3 {
-  margin: 0 0 16px;
+  margin: 40px 0 16px;
   font-size: 32px;
   line-height: 40px;
   font-weight: 500;
@@ -712,11 +751,11 @@
 }
 
 .pro-dark-theme .skill-html {
-  background-image: url("themes/dark-pro/img/icon-html.svg");
+  background-image: url("./themes/dark-pro/img/icon-html.svg");
 }
 
 .pro-dark-theme .skill-css {
-  background-image: url("themes/dark-pro/img/icon-css.svg");
+  background-image: url("./themes/dark-pro/img/icon-css.svg");
 }
 
 .pro-dark-theme .level {
@@ -735,7 +774,7 @@
   letter-spacing: 1px;
   line-height: 26px;
   background-color: #5053a8;
-  background-image: url("themes/dark-pro/img/progress-pattern.svg");
+  background-image: url("./themes/dark-pro/img/progress-pattern.svg");
 }
 
 .pro-dark-theme .portfolio {
@@ -780,6 +819,7 @@
   box-shadow: 0 4px 16px rgba(249, 221, 121, 0.4);
   border-radius: 24px;
   transition: background-color 100ms, box-shadow 100ms;
+  margin-bottom: 300px;
 }
 
 .pro-dark-theme .button:focus,
@@ -789,6 +829,35 @@
 }
 
 .pro-dark-theme .button:active {
+  background-color: #b69e4b;
+  box-shadow: none;
+}
+
+.pro-dark-theme .button2 {
+  margin: 0;
+  padding: 8px 24px;
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0b0c23;
+  background-color: #f9dd79;
+  box-shadow: 0 4px 16px rgba(249, 221, 121, 0.4);
+  border-radius: 24px;
+  transition: background-color 100ms, box-shadow 100ms;
+  margin-bottom: 300px;
+}
+
+.pro-dark-theme .button2:focus,
+.pro-dark-theme .button2:hover {
+  background-color: #f9e7a8;
+  box-shadow: 0 4px 32px rgba(249, 221, 121, 0.6);
+}
+
+.pro-dark-theme .button2:active {
   background-color: #b69e4b;
   box-shadow: none;
 }
